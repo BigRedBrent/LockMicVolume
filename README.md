@@ -1,8 +1,11 @@
 # LockMicVolume
 This will lock your default recording device volume.
 
-You can download the installer here:  
+**You can download the installer here:**  
 https://github.com/BigRedBrent/LockMicVolume/raw/master/InstallLockMicVolume.exe
+
+Find the latest list of changes here:  
+https://github.com/BigRedBrent/LockMicVolume/blob/master/CHANGELOG.md
 
 Please post your questions or requests for this script here:  
 https://github.com/BigRedBrent/LockMicVolume/issues
