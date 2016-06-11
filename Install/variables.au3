@@ -1,3 +1,3 @@
 #include-once
 Global $Name = "LockMicVolume"
-Global $Version = "1.1"
+Global $Version = "1.2"
