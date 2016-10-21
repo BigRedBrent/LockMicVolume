@@ -3,10 +3,7 @@
 #include <Misc.au3>
 #include <MsgBoxConstants.au3>
 Global $Title = $Name & " v" & $Version
-If _Singleton($Name & "B9mmEGD9YhIF", 1) = 0 Then
-    MsgBox($MB_ICONWARNING, $Title, $Name & " is already running!")
-    Exit
-EndIf
+If _Singleton($Name & "B9mmEGD9YhIF", 1) = 0 Then Exit MsgBox($MB_ICONWARNING, $Title, $Name & " is already running!")
 #include <WinAPIFiles.au3>
 FileChangeDir(@ScriptDir)
 Local $Volume = 65536, $Percent = IniRead(@AppDataCommonDir & "\" & $Name & "\" & $Name & ".ini", "Settings", "VolumePercent", "")
@@ -22,7 +19,5 @@ ElseIf $Percent < 100 Then
 EndIf
 While 1
     Local $return = RunWait($Name & "NirCmd.exe loop 172800 500 setsysvolume " & $Volume & " default_record", @ScriptDir, @SW_HIDE)
-    If $return <> 0 Or @error <> 0 Then
-        Exit
-    EndIf
+    If $return <> 0 Or @error <> 0 Then Exit
 WEnd
