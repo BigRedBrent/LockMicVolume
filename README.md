@@ -17,4 +17,4 @@ Use this link to send donations of $12 or more:
 https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&item_name=LockMicVolume&hosted_button_id=E76FTEGUBMACA
 
 Use this micro payment link to send donations of less than $12:  
-https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&item_name=LockMicVolume+-+Micro+Payment&hosted_button_id=3HD6FEDT7EJXQ
+https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&item_name=LockMicVolume%20-%20Micro%20Payment&hosted_button_id=3HD6FEDT7EJXQ
